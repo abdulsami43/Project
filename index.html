@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my new and additional website</title>
+    <link rel="stylesheet" href="sami.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="description" content=
+    "Step into the enchanting realm of Radiant Reverie, where every click opens a door to a world brimming with delight. This isn't just a website; it's a celebration of everything that makes life extraordinary. Immerse yourself in a kaleidoscope of joy, laughter, and inspiration as you navigate through our vibrant digital wonderland.
+
+    At Radiant Reverie, we've curated a space that resonates with the beating heart of discovery. Dive into a treasure trove of captivating stories, awe-inspiring art, and tunes that will make your soul dance. Let your senses roam free as you explore a diverse array of content that promises to tickle your curiosity and ignite your passions">
+</head>
+
+<body>
+<header class="header">
+    <a href="#" class="logo">Logo</a>
+
+    <input type="checkbox" id="check">
+   
+    <label for="check" class="icons">
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <i class='bx bx-x'  id="close-icon"></i>
+    </label>
+           
+    <nav class="navbar">
+        <a href="#" style="--i:0;">Home</a>
+        <a href="About.html" style="--i:1;">About </a>
+        <a href="#" style="--i:2;">Services</a>
+        <a href="#" style="--i:3;">Contact us</a>
+        <a href="#" style="--i:4;"> Feedback</a>
+    </nav>
+</header> 
+
+                <br>
+
+    <main>
+        <p class="para">
+            This is my first websites 
+        </p>
+        <p class="para2">
+            Tell me what content should I Add in this
+        </p>
+        <!-- <label for="type"> -->
+            <input type="text" placeholder="Comment Me" id="type" class="js-name-input "> 
+        <!-- </label> -->
+
+        <button class="btn " onclick="
+           addTodo();
+        ">
+            Comment Me
+        </button>
+
+        
+        <div class="js-todo-list container"></div>
+    </main>
+    <script src="sami.js"></script>
+</body>
+
+</html>
